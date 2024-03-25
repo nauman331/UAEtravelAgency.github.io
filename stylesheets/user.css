@@ -1,0 +1,103 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+
+.top-header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0% 2%;
+}
+
+.top-with-pencil {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fix {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.profile-logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.top-header i {
+    font-size: xx-large;
+}
+
+.settings-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.settings-section .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 80px;
+    border-bottom: 1px solid #999;
+    text-decoration: none;
+    color: black;
+}
+
+.box h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h3 i {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.settings-section button {
+    width: 90%;
+    height: 50px;
+    border: none;
+    margin-top: 2rem;
+    background-color: pink;
+    font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+    .fix {
+        width: 15%;
+    }
+}

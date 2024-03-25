@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./stylesheets/addwallet.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-map" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
+                <li><a href="user.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="balance">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        <h1>Family Wallet</h1>
+    </section>
+
+    <form action="">
+        <h2>Create a family wallet:</h2>
+        <input type="text" placeholder="Wallet Name" id="name" />
+        <br />
+        <input type="number" placeholder="Card Number" id="number" />
+        <div class="inputs">
+            <input type="date" placeholder="Expiry Date" id="expiry" />
+            <input type="number" placeholder="CVC" id="cvc" />
+        </div>
+        <button>Create Wallet</button>
+    </form>
+
+    <form action="">
+        <h3>Join as an existing family wallet:</h>
+            <input type="text" placeholder="Wallet ID" />
+            <button>Send Request</button>
+    </form>
+</body>
+
+</html>
