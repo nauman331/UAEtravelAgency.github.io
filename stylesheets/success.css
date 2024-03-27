@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    width: 90%;
+    height: 50px;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 2%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    height: 100%;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.balance {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(202, 66, 202);
+    padding: 10px;
+}
+
+.balance h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.bill-section {
+    width: 90%;
+    background-color: #c2c2c2;
+    height: 50vh;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+}
+
+.icons .check {
+    border: 2px solid black;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-section {
+    height: 70vh;
+    width: 90%;
+    background-color: #c2c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.check2 {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 100px;
+    font-size: xx-large;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    margin-top: 1rem;
+}
+
+.download i {
+    margin: 0% 1rem;
+}
+
+.success-section button {
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(202, 66, 202);
+    margin-top: 2rem;
+}
