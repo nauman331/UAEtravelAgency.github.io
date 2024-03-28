@@ -5,6 +5,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body {
+    margin-bottom: 5rem;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -82,7 +86,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     margin-top: 5%;
 }
 

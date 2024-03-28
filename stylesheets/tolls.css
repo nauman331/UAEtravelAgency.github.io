@@ -5,6 +5,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body {
+    margin-bottom: 5rem;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -64,7 +68,7 @@ header nav ul li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     margin-top: 5%;
 }
 
@@ -79,7 +83,7 @@ header nav ul li a {
 .second-section h3 {
     margin: 1rem;
     background-color: #c2c2c2;
-    width: 40%;
+    width: 50%;
     height: 50px;
     display: flex;
     align-items: center;
